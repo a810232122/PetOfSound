@@ -1,0 +1,30 @@
+//
+//  TestDemo-Prefix.pch
+//  TestObjectPro
+//
+//  Created by 小七 on 2019/12/9.
+//  Copyright © 2019 com.czcb. All rights reserved.
+//
+
+#ifndef TestDemo_Prefix_pch
+#define TestDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#ifdef __OBJC__
+//#ifdef DEBUG
+//#define NSLog(fmt,...) NSLog((@"%s[Line %d]"fmt), __PRETTY_FUNTION__,__LINE__,##_VA_ARGS__)
+//#else
+//#define NSlog(...)
+//#endif
+//#endif
+
+
+
+
+
+
+#import "codeObfuscation.h"
+
+#endif /* TestDemo_Prefix_pch */
